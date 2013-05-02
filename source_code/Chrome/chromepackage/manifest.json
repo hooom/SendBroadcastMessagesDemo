@@ -1,0 +1,9 @@
+{
+  "name": "SocketBroadcastDemo",
+  "version": "${FBSTRING_PLUGIN_VERSION}",
+  "description": "create socket for sending broadcast messages",
+
+	"plugins": [
+    { "path": "npSocketBroadcastDemo.dll", "public": true }
+  ]
+}
