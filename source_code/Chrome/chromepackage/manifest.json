@@ -1,9 +1,14 @@
 {
-  "name": "SocketBroadcastDemo",
-  "version": "${FBSTRING_PLUGIN_VERSION}",
-  "description": "create socket for sending broadcast messages",
-
-	"plugins": [
-    { "path": "npSocketBroadcastDemo.dll", "public": true }
-  ]
+    //"manifest_version": 2,
+    "name":"Test Socket for broadcast",
+    "version":"1.0",
+    "description":"javascript invoke system method",
+    "browser_action":{
+        "default_icon":"icon.gif",
+        "default_popup":"popup.html"
+    },
+    "plugins":[
+	{"path":"SocketBroadcastDemo_x86_64.plugin", "public":true}
+    ],
+    "permissions":["tabs"]
 }
