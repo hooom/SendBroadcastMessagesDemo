@@ -1,9 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# Copyright : (c) SAEKI Yoshiyasu
-# License   : MIT-style license
-#             <http://www.opensource.org/licenses/mit-license.php>
-# last updated: 2012/05/20
 
 import socket
 
